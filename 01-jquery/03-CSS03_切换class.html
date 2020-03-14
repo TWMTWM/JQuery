@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="../js/jquery/jquery.min.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$("#b1").click(function(){
+			$("#d").toggleClass("blue");
+		});
+	});
+</script>
+<style type="text/css">
+	.pink{
+		background-color: pink;
+	}
+	.blue{
+		background-color: blue;
+	}
+</style>
+</head>
+<body>
+	<button id="b1">切换背景色</button>
+	<br>
+	<br>
+	<div id="d" class="pink">
+		Hello JQuery
+	</div>
+</body>
+</html>
