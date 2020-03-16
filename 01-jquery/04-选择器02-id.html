@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="../js/jquery/jquery.min.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$("#b1").click(function(){
+			$("#d1").addClass("pink");
+		});
+	});
+</script>
+<style type="text/css">
+	.pink{
+		background-color: pink;
+	}
+</style>
+</head>
+<body>
+	<button id="b1">给id=d1的div增加背景色</button>
+	<br>
+	<br>
+	<div id="d1">Hello Div1</div>
+	<div id="d2">Hello Div2</div>
+	<div id="d3">Hello Div3</div>
+</body>
+</html>
