@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="../js/jquery/jquery.min.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$("#b1").click(function(){
+			$("div").addClass("pink");
+		});
+	});
+</script>
+<style type="text/css">
+	.pink{
+		background-color: pink;
+	}
+</style>
+</head>
+<body>
+	<button id="b1">给所有的div元素添加背景色：粉色</button>
+	<div>第一个div</div>
+	<div>第二个div</div>
+	<div>第三个div</div>
+</body>
+</html>
