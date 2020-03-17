@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="../js/jquery/jquery.min.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$("#b1").click(function(){
+			$("div:visible").hide();
+		});
+		$("#b2").click(function(){
+			$("div:hidden").show();
+		});		
+	});
+</script>
+<style type="text/css">
+	.pink{
+		background-color: pink;
+	}
+</style>
+</head>
+<body>
+	<button id="b1">隐藏可见的</button>
+	<button id="b2">显示不可见的</button>
+	<br>
+	<br>
+	<div>
+		<span>Hello JQuery 1</span>
+	</div>
+	<div>
+		<span>Hello JQuery 2</span>
+	</div>	
+	<div>
+		<span>Hello JQuery 3</span>
+	</div>	
+	<div>
+		<span>Hello JQuery 4</span>
+	</div>	
+	<div>
+		<span>Hello JQuery 5</span>
+	</div>	
+	<div>
+		<span>Hello JQuery 6</span>
+	</div>	
+	<div>
+		<span>Hello JQuery 7</span>
+	</div>	
+	<div>
+		<span>Hello JQuery 8</span>
+	</div>	
+	<div>
+		<span>Hello JQuery 9</span>
+	</div>	
+	<div>
+		<span>Hello JQuery 10</span>
+	</div>	
+</body>
+</html>
