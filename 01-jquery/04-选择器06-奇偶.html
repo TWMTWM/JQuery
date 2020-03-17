@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="../js/jquery/jquery.min.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$("#b1").click(function(){
+			$("div:odd").toggleClass("pink");
+		});
+		$("#b2").click(function(){
+			$("div:even").toggleClass("green");
+		});
+	});
+</script>
+<style type="text/css">
+	.pink{
+		background-color: pink;
+	}
+	.green{
+		background-color: green;
+	}
+</style>
+</head>
+<body>
+	<button id="b1">切换奇数背景色</button>
+	<button id="b2">切换偶数背景色</button>
+	<br>
+	<br>
+	<div>
+		<span>Hello JQuery 1</span>
+	</div>
+	<div>
+		<span>Hello JQuery 2</span>
+	</div>	
+	<div>
+		<span>Hello JQuery 3</span>
+	</div>
+	<div>
+		<span>Hello JQuery 4</span>
+	</div>
+	<div>
+		<span>Hello JQuery 5</span>
+	</div>
+	<div>
+		<span>Hello JQuery 6</span>
+	</div>	
+	<div>
+		<span>Hello JQuery 7</span>
+	</div>
+	<div>
+		<span>Hello JQuery 8</span>
+	</div>
+	<div>
+		<span>Hello JQuery 9</span>
+	</div>
+	<div>
+		<span>Hello JQuery 10</span>
+	</div>	
+	<div>
+		<span>Hello JQuery 11</span>
+	</div>
+	<div>
+		<span>Hello JQuery 12</span>
+	</div>	
+</body>
+</html>
