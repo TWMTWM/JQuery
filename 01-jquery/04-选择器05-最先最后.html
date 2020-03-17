@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="../js/jquery/jquery.min.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$("#b1").click(function(){
+			$("div:first").addClass("pink");
+		});
+		$("#b2").click(function(){
+			$("div:last").addClass("pink");
+		});
+	});
+</script>
+<style type="text/css">
+	.pink{
+		background-color: pink;
+	}
+</style>
+</head>
+<body>
+	<button id="b1">第一个增加背景色</button>
+	<button id="b2">最后一个增加背景色</button>
+	<br>
+	<br>
+	<div>
+		<span>Hello JQuery</span>
+	</div>
+	<div>
+		<span>Hello JQuery</span>
+	</div>	
+	<div>
+		<span>Hello JQuery</span>
+	</div>	
+</body>
+</html>
