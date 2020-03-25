@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="../js/jquery/jquery.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#message1").html("页面加载成功");
+	});
+	$(function(){
+		$("#img").load(function(){
+			$("#message2").html("图片加载成功");
+		});
+	});
+</script>
+<style type="text/css">
+	
+</style>
+</head>
+<body>
+	<div id="message1"></div>
+	<div id="message2"></div>
+	
+	<img alt="图片" src="../imgs/example.gif">
+</body>
+</html>
