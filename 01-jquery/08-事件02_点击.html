@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="../js/jquery/jquery.min.js"></script>
+<script type="text/javascript">
+	$(function(){
+	    $("#b").click(function(){
+	        $("#message").html("单击按钮");
+	    });
+	    $("#b").dblclick(function(){
+	        $("#message").html("双击按钮");
+	    });
+	});
+</script>
+<style type="text/css">
+		
+</style>
+</head>
+<body>
+	<div id="message"></div>
+	<button id="b">测试单机和双击</button>
+</body>
+</html>
