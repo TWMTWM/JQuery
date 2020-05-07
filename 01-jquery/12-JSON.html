@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="../js/jquery/jquery.min.js"></script>
+<script type="text/javascript">
+	var s1 = "{\"name\":\"盖伦\"";
+	var s2 = ",\"hp\":616}";
+	var s3 = s1+s2;
+	
+	document.write("这是一个JSON格式的字符串:" + s3);
+	document.write("<br>");
+	var gareen = $.parseJSON(s3);
+	document.write("这是一个json对象:" + gareen);
+</script>
+<style type="text/css">
+	
+</style>
+</head>
+<body>
+
+</body>
+</html>
