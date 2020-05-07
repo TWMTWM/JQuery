@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="../js/jquery/jquery.min.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$("#name").keyup(function(){
+			var value = $(this).val();
+			var page = "/study/checkName.jsp?name=" + value;
+			$("#checkResult").load(page);
+		});
+	});	
+</script>
+<style type="text/css">
+	
+</style>
+</head>
+<body>
+	<div id="checkResult"></div>
+	输入账号:<input id="name" type="text">
+</body>
+</html>
